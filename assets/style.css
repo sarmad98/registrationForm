@@ -1,0 +1,283 @@
+
+.top-nav{
+    background-color: #f3f3f3;
+    padding:10px;
+}
+
+.top-nav-left{
+    font-family: 'Lato',sans-serif;
+    letter-spacing: 2px;
+    font-size: 11px;
+    margin: 5px 0px 5px 20px;
+}
+
+.logo{
+    text-align: center;
+    padding:20px 0px 10px 0px;
+}
+
+.collapse{
+    margin-left:25%;
+}
+
+.nav-item{
+    padding:0px 0px 20px 40px;
+}
+
+.navbar-light .navbar-toggler {
+    margin-top: -80px;
+    border: none;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+}
+
+.flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.btn-about{
+    background-color: #1f1f1f;
+    color:white;
+}
+
+.btn-about:hover{
+    background-color: silver;
+    font-weight: bold;
+    color:#1f1f1f;
+}
+
+.about{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.stitching,.fabrics{
+    border-radius: 100%;
+    height: 400px;
+}
+
+.parallex-div{
+    background-repeat:no-repeat; 
+    background-attachment:fixed;
+    background-size:cover;
+    background-position: center; 
+    overflow: hidden;
+    height: 550px;
+}
+
+.display-5{
+    font-family: "NeueHansKendrick",sans-serif;
+    font-weight: 600!important;
+}
+
+.display-5 > a {
+    font-family: 'Be Vietnam', sans-serif;
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+}
+
+.display-5 > a:hover{
+    color:gray;
+}
+
+.lead{
+    font-family: "NeueHansKendrick",sans-serif;
+    font-size: 15px;
+}
+
+.bg-light{
+    background-color:#bfb5a814 !important;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.cb{
+    color: grey;
+    display:none;
+}
+
+.cat-card:hover .cb{
+    text-align: center;
+    display: block;
+}
+
+.cat-card:hover img{
+    transition: all .2s ease-in-out;
+    width: 102%;
+}
+
+@media (min-width: 768px) {
+.flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+}
+}
+
+.overflow-hidden { overflow: hidden; }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    .logo_img{
+        height:50px;
+    }
+
+    .nav-item{
+        padding: 0px;
+        text-align: center;
+    }
+
+    .collapse {
+        margin-left: 0px;
+    }
+    
+    .about-text{
+        display: none;
+    }
+
+    .lead{
+        font-size:12px;
+    }
+
+    .about-img{
+        padding:20px;
+        height: 200px;
+    }
+
+    .stitching,.fabrics{
+        height: 300px;
+    }
+
+    .btn-about {
+        font-size: 11px;
+        height: 25px;
+        padding: 3px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .nav-item{
+        padding: 0px;
+        text-align: center;
+    }
+
+    .collapse {
+        margin-left: 0px;
+    }
+
+    .nav-link{
+        font-size: 10px;
+    }
+
+    .parallex-div {
+        background: url("../assets/images/bgmob.jpg") !important;
+        background-repeat:no-repeat !important; 
+        background-attachment:fixed !important;
+        background-size:cover !important;
+        background-position: center !important; 
+        overflow: hidden !important;
+        height: 700px;
+    }
+
+    .fabrics{
+        margin-top: 20px;
+    }
+
+    .top-nav{
+        text-align: center;
+    }
+
+    .footer-para{
+        text-align: center !important;
+    }
+
+    .catalogue_carousel{
+        margin-left:35px;
+        margin-top:10px;
+    }
+
+    .display-5 > a {
+        margin-right: 25px;
+        font-size: 20px;
+    }
+}
