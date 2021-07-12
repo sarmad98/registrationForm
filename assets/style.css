@@ -235,7 +235,7 @@
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 575px) {
     .nav-item{
         padding: 0px;
         text-align: center;
@@ -279,5 +279,14 @@
     .display-5 > a {
         margin-right: 25px;
         font-size: 20px;
+    }
+
+    .logo-sm{
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+
+    .btn-block{
+        width: 260px;
     }
 }
